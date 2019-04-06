@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/imgback"
+    tools:context=".MainActivity">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/play_id"
+                    android:layout_width="120dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/playgrp"
+                    android:layout_marginTop="70dp"
+                    android:layout_marginLeft="55dp"
+                    />
+
+                <ImageButton
+                    android:id="@+id/nursery_id"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/nursery"
+                    android:layout_marginTop="70dp"
+                    android:layout_marginRight="45dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/lkg_id"
+                    android:layout_width="50dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/lkgclass"
+                    android:layout_marginLeft="55dp" />
+
+                <ImageButton
+                    android:id="@+id/ukg_id"
+                    android:layout_width="50dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/ukgclass"
+                    android:layout_marginRight="45dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/first_id"
+                    android:layout_width="50dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/firstclass"
+                    android:layout_marginBottom="40dp"
+                    android:layout_marginLeft="65dp" />
+
+                <ImageButton
+                    android:id="@+id/second_id"
+                    android:layout_width="50dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/second"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginRight="45dp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+</RelativeLayout>
